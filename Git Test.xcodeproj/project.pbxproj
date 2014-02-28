@@ -18,6 +18,7 @@
 		99BA191718C0B75000315368 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BA191618C0B75000315368 /* Default-568h@2x.png */; };
 		99BA191A18C0B75000315368 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BA191818C0B75000315368 /* MainStoryboard.storyboard */; };
 		99BA191D18C0B75000315368 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA191C18C0B75000315368 /* CCViewController.m */; };
+		99BA192518C0BDC000315368 /* CCAnotherClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA192418C0BDC000315368 /* CCAnotherClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		99BA191918C0B75000315368 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		99BA191B18C0B75000315368 /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
 		99BA191C18C0B75000315368 /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		99BA192318C0BDC000315368 /* CCAnotherClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAnotherClass.h; sourceTree = "<group>"; };
+		99BA192418C0BDC000315368 /* CCAnotherClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAnotherClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 			children = (
 				99BA190F18C0B75000315368 /* CCAppDelegate.h */,
 				99BA191018C0B75000315368 /* CCAppDelegate.m */,
+				99BA192318C0BDC000315368 /* CCAnotherClass.h */,
+				99BA192418C0BDC000315368 /* CCAnotherClass.m */,
 				99BA191818C0B75000315368 /* MainStoryboard.storyboard */,
 				99BA191B18C0B75000315368 /* CCViewController.h */,
 				99BA191C18C0B75000315368 /* CCViewController.m */,
@@ -177,6 +182,7 @@
 				99BA190D18C0B75000315368 /* main.m in Sources */,
 				99BA191118C0B75000315368 /* CCAppDelegate.m in Sources */,
 				99BA191D18C0B75000315368 /* CCViewController.m in Sources */,
+				99BA192518C0BDC000315368 /* CCAnotherClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
